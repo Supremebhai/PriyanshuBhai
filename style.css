@@ -1,0 +1,19 @@
+
+/* style.css - simple modern landing card */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #0f172a 0%, #071032 100%); color: #fff; }
+.bg-overlay { display:flex; align-items:center; justify-content:center; height:100%; padding:20px; }
+.card { width: 360px; background: rgba(255,255,255,0.03); border-radius:16px; padding:24px; text-align:center; box-shadow: 0 10px 30px rgba(2,6,23,0.6); border: 1px solid rgba(255,255,255,0.04); }
+.avatar-wrapper { display:flex; justify-content:center; margin-top:-70px; }
+.avatar { width:140px; height:140px; border-radius:50%; object-fit:cover; border:6px solid rgba(255,255,255,0.08); box-shadow: 0 8px 20px rgba(2,6,23,0.6); background:#222; }
+.name { font-size:20px; margin-top:12px; font-weight:700; letter-spacing:0.3px; }
+.subtitle { font-size:13px; margin-top:6px; color:rgba(255,255,255,0.75); }
+.timer { margin-top:16px; font-size:28px; font-weight:600; }
+.seconds-left { font-size:12px; color:rgba(255,255,255,0.6); margin-bottom:12px; }
+.cta-btn { display:inline-block; margin-top:12px; padding:12px 18px; border-radius:10px; text-decoration:none; font-weight:600; background:linear-gradient(90deg,#ff7a18,#af002d); color:#fff; box-shadow: 0 8px 18px rgba(175,0,45,0.24); }
+.tagline { font-size:12px; color:rgba(255,255,255,0.7); margin-top:12px; }
+.divider { height:1px; background: rgba(255,255,255,0.04); margin:16px 0; border-radius:2px; }
+.disclaimer { font-size:12px; color:rgba(255,255,255,0.6); line-height:1.4; }
+@media (max-width:420px) {
+  .card { width:100%; padding:18px; border-radius:12px; }
+}
